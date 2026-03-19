@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3ede2; /* light coffee cream */
+  color: #4b3f2f; /* dark coffee brown */
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #6f4e37; /* rich coffee brown */
+  color: #fdf6e3; /* light cream */
+  padding: 20px 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Navigation links */
+nav a {
+  color: #fdf6e3; /* cream */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d2691e; /* warm coffee caramel */
+}
+
+/* Main content area */
+main {
+  background-color: #fff8f0; /* soft cream */
+  padding: 30px 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Example headings for visual punch */
+h1, h2, h3 {
+  color: #fdf6e3; /* light cream */;}
+  
+
+/* Footer styling */
+footer {
+  background-color: #6f4e37; /* same as header for balance */
+  color: #fdf6e3; 
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+button {
+  background-color: #d2691e; /* caramel accent */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #b35914; /* darker caramel */
+}
